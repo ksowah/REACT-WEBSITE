@@ -1,0 +1,58 @@
+body{
+    background-image: url('/src/images/img-8.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+
+.sign-up{
+    height: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .signup-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 2rem;
+  }
+
+  
+  .error{
+    margin-top: 0.8rem;
+    background-color: rgb(243, 106, 106);
+    min-width: 250px;
+  }
+
+  input{
+    margin: 0.8rem;
+    padding: 14px;
+    width: 20rem;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+  }
+
+  p{
+      font-size: 1.1rem;
+  }
+
+  .login{
+     cursor: pointer;
+     text-decoration: underline;
+     color: #fff;
+  }
+
+  @media screen and (max-width: 1480px) {
+      body{
+        height: 100vh;
+      }
+
+      h4{
+          font-size: 3rem;
+      }
+  }

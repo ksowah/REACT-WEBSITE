@@ -1,0 +1,27 @@
+.dashboard--container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign--out{
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 10px 22px;
+    font-size: 20px;
+}
+
+.sign--out:hover{
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-in;
+}
